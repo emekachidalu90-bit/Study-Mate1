@@ -1,0 +1,18 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, sans-serif;
+  background: #0b1220;
+  color: #e2e8f0;
+}
+body { margin: 0; }
+.shell { max-width: 1200px; margin: 0 auto; padding: 1rem; }
+.topbar { display: flex; align-items: center; justify-content: space-between; }
+.card { background: #111827; border: 1px solid #1f2937; border-radius: 14px; padding: 1rem; margin-bottom: 1rem; }
+.grid { display: grid; gap: 1rem; }
+.cols-2 { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+.row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+input, textarea, button { background: #0f172a; color: white; border: 1px solid #334155; border-radius: 10px; padding: 0.55rem 0.7rem; }
+button { cursor: pointer; background: #2563eb; border-color: #2563eb; }
+pre { white-space: pre-wrap; background: #020617; padding: 0.7rem; border-radius: 10px; max-height: 260px; overflow: auto; }
+.chatbox { min-height: 120px; max-height: 220px; overflow: auto; background: #020617; border-radius: 10px; padding: 0.6rem; }
+ul { padding-left: 1.2rem; }
